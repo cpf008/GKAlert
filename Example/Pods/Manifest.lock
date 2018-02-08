@@ -1,0 +1,16 @@
+PODS:
+  - GKAlert (0.1.0)
+
+DEPENDENCIES:
+  - GKAlert (from `../`)
+
+EXTERNAL SOURCES:
+  GKAlert:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GKAlert: b5fb98045d5ccf428db7e56aff0b3d0ab786e40d
+
+PODFILE CHECKSUM: 33db7e4ae678bdfb88878fa0b9ac369c1f37c49c
+
+COCOAPODS: 1.3.1

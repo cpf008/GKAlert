@@ -1,0 +1,6 @@
+framework module Pods_GKAlert_Example {
+  umbrella header "Pods-GKAlert_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
