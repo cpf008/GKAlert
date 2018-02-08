@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GKAlert_Example' do
+  pod 'GKAlert', :path => '../'
+
+  target 'GKAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
