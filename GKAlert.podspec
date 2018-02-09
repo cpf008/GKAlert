@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GKAlert'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple alert of GKAlert.'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: A simple alert, Lanauge is Swift .
                        DESC
 
-  s.homepage         = 'https://github.com/cpf/GKAlert'
+  s.homepage         = 'https://github.com/cpf008/GKAlert'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cpf' => 'xiaocui_008@126.com' }

@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E28B35A9DB1A14682A1455A97E78A33 /* GKAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0451D8808216B06732E12BD6519DC5CD /* GKAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182EABB6202D4B4600E395A4 /* GKUIViewBounceAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABA9202D4B4600E395A4 /* GKUIViewBounceAnimal.swift */; };
+		182EABB7202D4B4600E395A4 /* GKAlertShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABAB202D4B4600E395A4 /* GKAlertShow.swift */; };
+		182EABB8202D4B4600E395A4 /* GKUpdateAlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABAC202D4B4600E395A4 /* GKUpdateAlertContent.swift */; };
+		182EABB9202D4B4600E395A4 /* GKAlertDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABAD202D4B4600E395A4 /* GKAlertDevice.swift */; };
+		182EABBA202D4B4600E395A4 /* GKAlertMessageCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABAE202D4B4600E395A4 /* GKAlertMessageCode.swift */; };
+		182EABBB202D4B4600E395A4 /* GKAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABAF202D4B4600E395A4 /* GKAlertView.swift */; };
+		182EABBC202D4B4600E395A4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABB1202D4B4600E395A4 /* UIColor+Extension.swift */; };
+		182EABBD202D4B4600E395A4 /* GKFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABB2202D4B4600E395A4 /* GKFont.swift */; };
+		182EABBE202D4B4600E395A4 /* GKScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EABB3202D4B4600E395A4 /* GKScale.swift */; };
 		194AAF66C982E976060A0ADC24D3EED1 /* Pods-GKAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D4CF51317E93C05BBCC67087F1044E /* Pods-GKAlert_Tests-dummy.m */; };
 		1E0A2FB05D0FF573615E747550AE29F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3BA7E4B89F9F5801C7D51A7B70ED0F90 /* Pods-GKAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA3F20D886BC9288DEA1DCAF769709D /* Pods-GKAlert_Example-dummy.m */; };
@@ -15,7 +23,6 @@
 		6033678E7D3EA02900BEC931654E0328 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8B7E3E753D64EA80276CE3AB91A042F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B1A0FD1ED45E11058F67C13FEAAF8C4A /* Pods-GKAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7508B6E6AF64C696994386C9033466F8 /* Pods-GKAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFCBD313C78960F99D11CBEA1E386245 /* GKAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3849B86074EE990F538957E454CB1E3B /* GKAlert-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,24 +36,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0451D8808216B06732E12BD6519DC5CD /* GKAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKAlert-umbrella.h"; sourceTree = "<group>"; };
 		0AB8714551DF78D9E8ED9899497CBDD5 /* Pods-GKAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		112E49DF8178D4FBE783A0F96FDA3730 /* Pods-GKAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GKAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		117E081C4A330093AFB3EFB4A20E83F2 /* GKAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GKAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		186F9CF3202C4C8D00D0256B /* GKUIViewBounceAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKUIViewBounceAnimal.swift; sourceTree = "<group>"; };
-		186F9CF5202C4C8D00D0256B /* GKAlertShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKAlertShow.swift; sourceTree = "<group>"; };
-		186F9CF6202C4C8D00D0256B /* GKUpdateAlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKUpdateAlertContent.swift; sourceTree = "<group>"; };
-		186F9CF7202C4C8D00D0256B /* GKAlertDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKAlertDevice.swift; sourceTree = "<group>"; };
-		186F9CF8202C4C8D00D0256B /* GKAlertMessageCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKAlertMessageCode.swift; sourceTree = "<group>"; };
-		186F9CF9202C4C8D00D0256B /* GKAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKAlertView.swift; sourceTree = "<group>"; };
-		186F9CFB202C4C8D00D0256B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		186F9CFC202C4C8D00D0256B /* GKFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKFont.swift; sourceTree = "<group>"; };
-		186F9CFD202C4C8D00D0256B /* GKScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GKScale.swift; sourceTree = "<group>"; };
-		3849B86074EE990F538957E454CB1E3B /* GKAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GKAlert-dummy.m"; sourceTree = "<group>"; };
+		182EABA7202D4B4600E395A4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		182EABA9202D4B4600E395A4 /* GKUIViewBounceAnimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKUIViewBounceAnimal.swift; sourceTree = "<group>"; };
+		182EABAB202D4B4600E395A4 /* GKAlertShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKAlertShow.swift; sourceTree = "<group>"; };
+		182EABAC202D4B4600E395A4 /* GKUpdateAlertContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKUpdateAlertContent.swift; sourceTree = "<group>"; };
+		182EABAD202D4B4600E395A4 /* GKAlertDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKAlertDevice.swift; sourceTree = "<group>"; };
+		182EABAE202D4B4600E395A4 /* GKAlertMessageCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKAlertMessageCode.swift; sourceTree = "<group>"; };
+		182EABAF202D4B4600E395A4 /* GKAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKAlertView.swift; sourceTree = "<group>"; };
+		182EABB1202D4B4600E395A4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		182EABB2202D4B4600E395A4 /* GKFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKFont.swift; sourceTree = "<group>"; };
+		182EABB3202D4B4600E395A4 /* GKScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKScale.swift; sourceTree = "<group>"; };
+		182EABB5202D4B4600E395A4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		3B6BD34F6F396206A71FFD98429CDE41 /* Pods-GKAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
 		441DAE0BCBF5164D2C85A3B8A3EB84F0 /* Pods-GKAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GKAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4572C3B5902D360F5F2971A556BF28E7 /* Pods-GKAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		54A19CF7A62285F70245038174C01E76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BBBC7F83C6BB4A455853815D81A959E /* Pods-GKAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GKAlert_Tests.modulemap"; sourceTree = "<group>"; };
 		5C0BEBD230C91BD2807772D2183F22B8 /* Pods-GKAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		600F3CF67FC2A9F5EC78D831FF1AC09E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,12 +60,9 @@
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D50C4454123E62F8E15A6809950AFD4 /* Pods-GKAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7508B6E6AF64C696994386C9033466F8 /* Pods-GKAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKAlert_Example-umbrella.h"; sourceTree = "<group>"; };
-		771159507FB927A6E18A6D64A5F9684C /* GKAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKAlert.xcconfig; sourceTree = "<group>"; };
-		8E3E86CA33FA8A5B25D40FF418B654C6 /* GKAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GKAlert.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0660711D3A7F7752F755E5A0253BEBC /* Pods-GKAlert_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GKAlert_Tests-resources.sh"; sourceTree = "<group>"; };
 		A26E70D48B47576973D9D3878A990D5D /* Pods-GKAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GKAlert_Example.modulemap"; sourceTree = "<group>"; };
-		B4C2850EE749CF141A3DE4BADC0192D9 /* GKAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKAlert-prefix.pch"; sourceTree = "<group>"; };
 		C791097632FF24D37F1F87F922A8D33B /* Pods_GKAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6803150649984805348641C5D135FCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6DBC846B3A2E0FDEE7CADD0431122BB /* Pods_GKAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,43 +102,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		186F9CF2202C4C8D00D0256B /* Animation */ = {
+		182EABA5202D4B4600E395A4 /* GKAlert */ = {
 			isa = PBXGroup;
 			children = (
-				186F9CF3202C4C8D00D0256B /* GKUIViewBounceAnimal.swift */,
+				182EABA6202D4B4600E395A4 /* Classes */,
+				182EABB4202D4B4600E395A4 /* Assets */,
+			);
+			path = GKAlert;
+			sourceTree = "<group>";
+		};
+		182EABA6202D4B4600E395A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				182EABA7202D4B4600E395A4 /* .gitkeep */,
+				182EABA8202D4B4600E395A4 /* Animation */,
+				182EABAA202D4B4600E395A4 /* View */,
+				182EABB0202D4B4600E395A4 /* Extention */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		182EABA8202D4B4600E395A4 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				182EABA9202D4B4600E395A4 /* GKUIViewBounceAnimal.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
 		};
-		186F9CF4202C4C8D00D0256B /* View */ = {
+		182EABAA202D4B4600E395A4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				186F9CF5202C4C8D00D0256B /* GKAlertShow.swift */,
-				186F9CF6202C4C8D00D0256B /* GKUpdateAlertContent.swift */,
-				186F9CF7202C4C8D00D0256B /* GKAlertDevice.swift */,
-				186F9CF8202C4C8D00D0256B /* GKAlertMessageCode.swift */,
-				186F9CF9202C4C8D00D0256B /* GKAlertView.swift */,
+				182EABAB202D4B4600E395A4 /* GKAlertShow.swift */,
+				182EABAC202D4B4600E395A4 /* GKUpdateAlertContent.swift */,
+				182EABAD202D4B4600E395A4 /* GKAlertDevice.swift */,
+				182EABAE202D4B4600E395A4 /* GKAlertMessageCode.swift */,
+				182EABAF202D4B4600E395A4 /* GKAlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		186F9CFA202C4C8D00D0256B /* Extention */ = {
+		182EABB0202D4B4600E395A4 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
-				186F9CFB202C4C8D00D0256B /* UIColor+Extension.swift */,
-				186F9CFC202C4C8D00D0256B /* GKFont.swift */,
-				186F9CFD202C4C8D00D0256B /* GKScale.swift */,
+				182EABB1202D4B4600E395A4 /* UIColor+Extension.swift */,
+				182EABB2202D4B4600E395A4 /* GKFont.swift */,
+				182EABB3202D4B4600E395A4 /* GKScale.swift */,
 			);
 			path = Extention;
+			sourceTree = "<group>";
+		};
+		182EABB4202D4B4600E395A4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				182EABB5202D4B4600E395A4 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		1B1FA61DC6A7B148C9BC1738AB651FAC /* GKAlert */ = {
 			isa = PBXGroup;
 			children = (
-				186F9CF2202C4C8D00D0256B /* Animation */,
-				186F9CFA202C4C8D00D0256B /* Extention */,
-				186F9CF4202C4C8D00D0256B /* View */,
-				923D524CF48706E1E425F2C9460C2445 /* Support Files */,
+				182EABA5202D4B4600E395A4 /* GKAlert */,
 			);
 			name = GKAlert;
 			path = ../..;
@@ -215,20 +243,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		923D524CF48706E1E425F2C9460C2445 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E3E86CA33FA8A5B25D40FF418B654C6 /* GKAlert.modulemap */,
-				771159507FB927A6E18A6D64A5F9684C /* GKAlert.xcconfig */,
-				3849B86074EE990F538957E454CB1E3B /* GKAlert-dummy.m */,
-				B4C2850EE749CF141A3DE4BADC0192D9 /* GKAlert-prefix.pch */,
-				0451D8808216B06732E12BD6519DC5CD /* GKAlert-umbrella.h */,
-				54A19CF7A62285F70245038174C01E76 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GKAlert";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,7 +274,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E28B35A9DB1A14682A1455A97E78A33 /* GKAlert-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +373,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCBD313C78960F99D11CBEA1E386245 /* GKAlert-dummy.m in Sources */,
+				182EABBD202D4B4600E395A4 /* GKFont.swift in Sources */,
+				182EABBC202D4B4600E395A4 /* UIColor+Extension.swift in Sources */,
+				182EABB9202D4B4600E395A4 /* GKAlertDevice.swift in Sources */,
+				182EABBB202D4B4600E395A4 /* GKAlertView.swift in Sources */,
+				182EABBA202D4B4600E395A4 /* GKAlertMessageCode.swift in Sources */,
+				182EABB6202D4B4600E395A4 /* GKUIViewBounceAnimal.swift in Sources */,
+				182EABBE202D4B4600E395A4 /* GKScale.swift in Sources */,
+				182EABB7202D4B4600E395A4 /* GKAlertShow.swift in Sources */,
+				182EABB8202D4B4600E395A4 /* GKUpdateAlertContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +415,6 @@
 /* Begin XCBuildConfiguration section */
 		0BFC684AA45E3525E8B18A03C995208F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 771159507FB927A6E18A6D64A5F9684C /* GKAlert.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -486,7 +506,6 @@
 		};
 		4DA9D48E2F98799B04F63FBFD773E999 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 771159507FB927A6E18A6D64A5F9684C /* GKAlert.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

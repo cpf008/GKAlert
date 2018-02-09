@@ -1,6 +1,0 @@
-framework module GKAlert {
-  umbrella header "GKAlert-umbrella.h"
-
-  export *
-  module * { export * }
-}
